@@ -10,6 +10,8 @@
 #    (sysadminctl -secureTokenStatus <user>).
 
 # EDIT THIS: exact account short-name(s) to remove, space-separated.
+# One target:   TARGETS="oldadmin1"
+# Several:      TARGETS="oldadmin1 oldadmin2 tempadmin"
 TARGETS="oldadmin1 oldadmin2"
 
 # Safety: never delete the currently-logged-in console user.
